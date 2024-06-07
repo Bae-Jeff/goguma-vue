@@ -1,7 +1,7 @@
 <script setup>
 
-import TopMenu from "@/components/TopMenu.vue";
-import SubMenu from "@/components/SubMenu.vue";
+import TopMenu from "@/components/common/TopMenu.vue";
+import SubMenu from "@/components/common/SubMenu.vue";
 </script>
 
 <template>

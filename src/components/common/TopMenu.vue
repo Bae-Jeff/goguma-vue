@@ -7,7 +7,7 @@
           <span class="top-logo-image flex align-items-center">
             <Avatar image="https://primefaces.org/cdn/primevue/images/avatar/asiyajavayant.png" class="mr-2 " size="large" shape="circle" />
           </span>
-          <RouterLink class="top-logo-text flex align-items-center" to="/">로컬호스트</RouterLink>
+          <span class="top-logo-text flex align-items-center">로컬호스트</span>
         </p>
       </div>
       <div class="flex-grow-1 flex align-items-center justify-content-end font-bold m-2 px-5  border-round">
