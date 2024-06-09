@@ -33,24 +33,40 @@ const topMenus = ref([
     }
   },
   {
-    label: '커뮤니티',
+    label: '우리뉴스',
     root: true,
     command: () => router.push('/community')
   },
   {
-    label: '생활·건강',
+    label: '비자·법율',
     root: true,
   },
   {
-    label: '스포츠·제러',
+    label: '생활·교육',
     root: true
   },
   {
-    label: '여행·법률',
+    label: '레저·스포츠',
     root: true
   },
   {
     label: '구인·구직',
+    root: true
+  },
+  {
+    label: '창업·주식',
+    root: true
+  },
+  {
+    label: '쇼핑',
+    root: true
+  },
+  {
+    label: '커뮤니티',
+    root: true
+  },
+  {
+    label: '부동산',
     root: true
   }
 
