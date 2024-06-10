@@ -1,4 +1,13 @@
 <script setup>
+import {onMounted, ref} from 'vue';
+import RowJob from "@/components/Article/jobs/RowJob.vue";
+import {JobsService} from "@/service/JobsService.js";
+const jobData = ref(null);
+const JobsFetcher = new JobsService();
+
+onMounted(() => {
+  JobsFetcher.getNewJobs().then((data) => (jobData.value = data));
+});
 
 </script>
 
@@ -8,16 +17,24 @@
       <div class="text-left border-round-sm h-full font-bold border-1 px-3 text-sm">
         <TabView class="p-0">
           <TabPanel header="구인" >
-            <Card class="no-padding-card">
-              <template #title>[생산직] 주 6일 월 3일 휴식</template>
-              <template #subtitle>Sub Title</template>
-              <template #content>
-                <p class="m-0">
-                  가나다 회사에서 43세이하의 나/녀 직원 모집합니다. 원하시는 분은 연락주시기 바랍니다.
-                </p>
-              </template>
-              <template #footer>Footer</template>
-            </Card>
+            <RowJob
+                v-for="item in jobData"
+                :key="item.id"
+                :occupation="item.occupation"
+                :company="item.company"
+                :type="item.type"
+                :title="item.title"
+                :content="item.content"
+                :position="item.position"
+                :department="item.department"
+                :specialties="item.specialties"
+                :location="item.location"
+                :experience="item.experience"
+                :education="item.education"
+                :salary="item.salary"
+                :deadline="item.deadline"
+                :posted="item.posted"
+            ></RowJob>
           </TabPanel>
           <TabPanel header="구직">
             <p class="m-0">
@@ -30,18 +47,11 @@
     </div>
     <div class="col-3">
       <div class="text-center border-round-sm h-full font-bold border-1">
-ㅇㄴㄹ
+        ㅇㄴㄹ
       </div>
     </div>
   </div>
 </template>
 
 <style scoped >
-.p-card .p-card-body {
-  padding: 0px !important;
-}
-
-.no-padding-card .p-card .p-card-body {
-  padding: 0px !important;
-}
 </style>

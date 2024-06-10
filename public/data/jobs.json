@@ -1,0 +1,93 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "company": "앰코테크놀로지코리아㈜",
+      "type": "외국계",
+      "title": "[신입] 앰코코리아 제조직(Operator) 모집 (인천 송도)",
+      "content": "신입 · 정규직 · 고졸↑ · 면접 후 협의 · D-6 · 2일 전 등록",
+      "position": "연구원",
+      "department": "R&D",
+      "specialties": "기술연구, 신소재, 전자파 외",
+      "location": "인천 연수구 외",
+      "experience": "신입",
+      "education": "고졸↑",
+      "salary": "면접 후 협의",
+      "deadline": "D-6",
+      "posted": "2일 전 등록"
+    },
+    {
+      "id": 2,
+      "company": "Company B",
+      "type": "외국계",
+      "title": "[신입] Position B 모집",
+      "content": "신입 · 정규직 · 대졸↑ · 면접 후 협의 · D-10 · 3일 전 등록",
+      "position": "Developer",
+      "department": "IT",
+      "specialties": "Software Development",
+      "location": "서울",
+      "experience": "신입",
+      "education": "대졸↑",
+      "salary": "면접 후 협의",
+      "deadline": "D-10",
+      "posted": "3일 전 등록"
+    },
+    {
+      "id": 3,
+      "company": "Company C",
+      "type": "외국계",
+      "title": "[경력] Position C 모집",
+      "content": "경력 · 정규직 · 석사↑ · 면접 후 협의 · D-20 · 1주일 전 등록",
+      "position": "Manager",
+      "department": "Management",
+      "specialties": "Project Management",
+      "location": "부산",
+      "experience": "경력",
+      "education": "석사↑",
+      "salary": "면접 후 협의",
+      "deadline": "D-20",
+      "posted": "1주일 전 등록"
+    },
+    {
+      "id": 4,
+      "company": "Company D",
+      "type": "국내",
+      "title": "[신입] Position D 모집",
+      "content": "신입 · 정규직 · 고졸↑ · 면접 후 협의 · D-15 · 4일 전 등록",
+      "position": "Engineer",
+      "department": "Engineering",
+      "specialties": "Mechanical Engineering",
+      "location": "대전",
+      "experience": "신입",
+      "education": "고졸↑",
+      "salary": "면접 후 협의",
+      "deadline": "D-15",
+      "posted": "4일 전 등록"
+    },
+    {
+      "id": 5,
+      "company": "Company E",
+      "type": "국내",
+      "title": "[경력] Position E 모집",
+      "content": "경력 · 정규직 · 학사↑ · 면접 후 협의 · D-5 · 5일 전 등록",
+      "position": "Analyst",
+      "department": "Finance",
+      "specialties": "Financial Analysis",
+      "location": "광주",
+      "experience": "경력",
+      "education": "학사↑",
+      "salary": "면접 후 협의",
+      "deadline": "D-5",
+      "posted": "5일 전 등록"
+    }
+  ],
+  "pages": {
+    "perPage": 15,
+    "totalPage": 1,
+    "currentPage": 1,
+    "totalRows": 10
+  },
+  "msg": "",
+  "bool": 1,
+  "code": "0000"
+}
