@@ -18,22 +18,7 @@ onMounted(() => {
         <TabView class="p-0">
           <TabPanel header="구인" >
             <RowJob
-                v-for="item in jobData"
-                :key="item.id"
-                :occupation="item.occupation"
-                :company="item.company"
-                :type="item.type"
-                :title="item.title"
-                :content="item.content"
-                :position="item.position"
-                :department="item.department"
-                :specialties="item.specialties"
-                :location="item.location"
-                :experience="item.experience"
-                :education="item.education"
-                :salary="item.salary"
-                :deadline="item.deadline"
-                :posted="item.posted"
+                v-for="job in jobData" :jobData="job"
             ></RowJob>
           </TabPanel>
           <TabPanel header="구직">
