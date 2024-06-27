@@ -6,7 +6,6 @@ import SubMenu from "@/components/common/SubMenu.vue";
 
 <template>
   <TopMenu></TopMenu>
-  <SubMenu></SubMenu>
 </template>
 
 <style scoped lang="scss">

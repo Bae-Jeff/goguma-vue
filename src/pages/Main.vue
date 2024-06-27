@@ -1,7 +1,8 @@
 <script setup>
 import {onMounted, ref} from 'vue';
-import RowJob from "@/components/Article/jobs/RowJob.vue";
+import RowJob from "@/components/Article/job/RowJob.vue";
 import {JobsService} from "@/service/JobsService.js";
+import MplayerBox from "@/components/Mplayer/MplayerBox.vue";
 const jobData = ref(null);
 const JobsFetcher = new JobsService();
 
@@ -12,9 +13,9 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="grid nested-grid">
-    <div class="col-9">
-      <div class="text-left border-round-sm h-full font-bold border-1 px-3 text-sm">
+  <div class="grid m-0">
+    <div class="col-12 lg:col xl:col p-3 mr-3 bg-white shadow-1 border-round-xs	" id="mainTabsA">
+      <div class="text-left border-round-sm h-full font-bold text-sm" >
         <TabView class="p-0">
           <TabPanel header="구인" >
             <RowJob
@@ -30,9 +31,9 @@ onMounted(() => {
         </TabView>
       </div>
     </div>
-    <div class="col-3">
-      <div class="text-center border-round-sm h-full font-bold border-1">
-        ㅇㄴㄹ
+    <div class="hidden xl:block lg:block col-fixed p-0" style="width: 250px">
+      <div class="text-center border-round-sm h-full font-bold">
+        <MplayerBox></MplayerBox>
       </div>
     </div>
   </div>

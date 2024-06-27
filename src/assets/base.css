@@ -43,11 +43,14 @@ body {
 }
 #main_wrap {
   max-width:1360px;
+  flex: 1 1 auto;
 }
 #main_wrap .top-menu-bar .top-logo{
   color: var(--guma-base);
 }
 #main_wrap .top-menu-bar {
-  border-bottom: 1px solid #dcdcdc;
   padding-bottom: 0.6rem;
+}
+#header,#contents,#footer {
+
 }

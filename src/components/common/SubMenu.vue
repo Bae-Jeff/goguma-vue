@@ -15,7 +15,7 @@
 
 <template>
   <div >
-    <Breadcrumb :home="home" :model="subItems" class="text-sm mt-1 mb-2" />
+    <Breadcrumb :home="home" :model="subItems" class="text-sm mt-1 mb-3" />
   </div>
 </template>
 
